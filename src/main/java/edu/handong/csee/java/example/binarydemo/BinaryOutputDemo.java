@@ -15,7 +15,7 @@ public class BinaryOutputDemo {
 
 	private void run() {
 		String fileName = "numbers.dat";
-		try {
+				try {
 			ObjectOutputStream outputStream = new ObjectOutputStream(
 					new FileOutputStream(fileName));
 			Scanner keyboard = new Scanner(System.in);

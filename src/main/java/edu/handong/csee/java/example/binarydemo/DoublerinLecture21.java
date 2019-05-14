@@ -19,7 +19,7 @@ public class DoublerinLecture21 {
 	}
 
 	private void run() {
-		String biranyFileName = "out.dat";
+		String biranyFileName = "numbersDoubled.dat";
 		try {
 			ObjectInputStream stream = new ObjectInputStream(new FileInputStream(biranyFileName));
 			
